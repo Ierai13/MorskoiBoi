@@ -93,7 +93,7 @@ class Board:
         pole = ' | '.join([str(1 * n) for n in range(0, 7)]) + " |"
         for i, e in enumerate(self.board):
             pole += f"\n{i +1} | " + " | ".join(e) + " |"
-        return pole
+        # return pole
 
         if self.hid:
             pole = pole.replace('■', '0')
